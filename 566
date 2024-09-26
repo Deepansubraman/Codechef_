@@ -1,0 +1,8 @@
+T = int(input())
+
+for i in range(T):
+    N = int(input())
+    if N == 1 or N % 2 == 0:
+        print("YES")
+    else:
+        print("NO")
